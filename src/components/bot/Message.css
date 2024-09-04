@@ -1,0 +1,91 @@
+.message {
+  padding: 10px;
+  margin: 10px;
+  
+  max-width: 100%;
+  word-wrap: break-word;
+}
+.math-block {
+  margin: 1em 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  font-size: 1.1em;
+}
+
+
+:root {
+  --primary-color: #5c48ee;
+  --fundo-color: #c0b8ff;
+  --cor-fndo-claro: #dedaff;
+  --claro-color: #9b8eff;
+  --primary-color-dark: #0f1e6a;
+  --secondary-color: #f9fafe;
+  --text-color: #333333;
+  --white: #ffffff;
+  --max-width: 1200px;
+} 
+.user {
+  background: var(--black-1);
+  border-radius: 5px !important;
+  color: rgba(247, 243, 243, 0.795);
+  align-self: flex-start !important;
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+  padding: 20px !important; 
+}
+
+.bot {
+  background: linear-gradient(70deg, #c7c1ff, #afa4ff) !important;
+  animation: move 1s infinite !important;
+  border-radius: 5px !important;
+  color: rgb(0, 0, 0);
+  align-self: flex-start !important;
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+  padding: 20px !important;
+  font-size: 18px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+} 
+
+@keyframes move {
+  0% {
+    background-position: 0% 0% !important;
+  }
+  100% {
+    background-position: 100% 100% !important;
+  }
+}
+
+.code-block {
+  position: relative;
+}
+
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  background: #494848;
+  color: #ffffff;
+  padding: 5px;
+  font-family: monospace;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.language {
+  font-size: 14px;
+}
+
+.copy-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+.copy-button:hover {
+  text-decoration: underline;
+}
